@@ -57,6 +57,7 @@
 
 .hero_img {
     width: 100%;
+    border-radius: 7px;
 }
 .indicator a {
     display: inline-block;
@@ -175,28 +176,21 @@
 .news>div {
     margin-bottom: 21px;
 }
-.date p {
+.news a {
+    text-decoration: none;
+}
+.date {
+    display: block;
+    color: white;
     text-align: center;
-}
-.date--top {
-    display: block;
-    text-decoration: none;
-    padding: 0px 15px 0px 15px;   
-    color: #f2f1f2;
     border-radius: 5px;
-    font-size: 25px;
-    margin: 0px;
+    line-height: 1;
+    padding: 8px;
 }
-.date--bottom{
-    display: block;
-    margin-top: -7px;
-    text-decoration: none;
-    padding: 0px 15px 15px 15px;   
-    color: #f2f1f2;
-    border-radius: 5px;
-    font-size: 15px;
-    margin: 0px;
+.date span {
+    font-size: 30px;
 }
+
 .date--first {
 
     background-color: #be8542;
@@ -217,15 +211,13 @@
 }
 .news_content p {
     margin: 0px;
-    color: #303f51;
-}
-.news a {
-    margin-top: 10px;
+    /* color: #303f51; */
+    color: #415264;
 }
 footer {
     height: 50px;
     margin-top: -17px;
     background-color: #0b1016;
-    color: #2e3339;
+    color: #415264;
 }
 
